@@ -1,0 +1,24 @@
+@import '../../../config/variables';
+
+.contact-container {
+  padding: 15px 20px 0;
+
+  label {
+    font-weight: 500;
+  }
+}
+
+.error {
+  color: $error-color;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.contant-info {
+  font-size: 16px;
+  margin-top: 5px;
+  padding: 0 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

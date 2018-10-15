@@ -1,0 +1,26 @@
+@import '../../../../config/variables';
+
+.submit-container {
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.total-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.offer-explain {
+  font-size: 11px;
+  margin-top: -5px
+}
+
+.error {
+  color: $error-color;
+  font-size: 12px;
+  margin-top: 10px;
+}

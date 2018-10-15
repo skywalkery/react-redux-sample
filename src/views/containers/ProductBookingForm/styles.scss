@@ -1,0 +1,88 @@
+@import '../../../config/variables';
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.product-container {
+  padding: 15px 20px;
+  border-bottom: $grey-lightest-line;
+}
+
+.store-address {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input {
+  border: 1px solid $grey-lightest-color;
+  border-radius: 4px;
+  line-height: 22px;
+}
+
+.input-price {
+  width: 100%;
+  border: $grey-lightest-line;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 0 6px 0 15px;
+  -webkit-appearance: none;
+
+  &::placeholder {
+    font-weight: 300;
+    color: $grey-light-color;
+  }
+}
+
+.input-price-error {
+  composes: input-price;
+  border-color: $error-color;
+}
+
+.dollar {
+  position: absolute;
+  line-height: 22px;
+  left: 6px;
+  top: 1px;
+}
+
+.dollar-inactive {
+  composes: dollar;
+  color: $grey-light-color;
+}
+
+.dollar-error {
+  composes: dollar;
+  color: $error-color;
+}
+
+.price-input-container {
+  position: relative;
+}
+
+.offer-icon {
+  color: $btn-color;
+  width: 22px;
+  height: 17px;
+  position: relative;
+  top: 3px;
+}
+
+.buy-now-icon {
+  color: $btn-color;
+  width: 22px;
+  height: 17px;
+  position: relative;
+  top: 3px;
+}
+
+.error {
+  display: flex;
+  color: $error-color;
+  font-size: 12px;
+  margin-top: 10px;
+  justify-content: center;
+}

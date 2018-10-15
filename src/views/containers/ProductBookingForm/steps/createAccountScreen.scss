@@ -1,0 +1,36 @@
+.container {
+  padding: 7px 20px;
+}
+
+.or-label {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.have-acc-label {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.social-btns {
+  display: flex;
+  justify-content: space-between;
+
+  div:first-child {
+    margin-right: 15px;
+
+    span {
+      font-size: 14px;
+    }
+  }
+
+  div:last-child {
+    span {
+      font-size: 14px;
+    }
+  }
+}

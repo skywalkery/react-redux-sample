@@ -1,0 +1,20 @@
+.select {
+  margin-top: 5px;
+}
+
+:global .Select-arrow-rotate {
+  border-width: 3.5px 0 3.5px 10px;
+  border-color: transparent transparent transparent #999;
+  border-style: solid;
+  display: inline-block;
+  height: 0;
+  width: 0;
+  position: relative;
+}
+
+:global .Select-arrow-zone:hover {
+  .Select-arrow-rotate {
+    border-top-color: transparent;
+    border-left-color: #666;
+  }
+}

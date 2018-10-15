@@ -1,0 +1,12 @@
+@import '../../../config/variables';
+
+.price-container {
+  display: flex;
+  padding: 7px 20px 0;
+  margin-bottom: -10px;
+
+  label {
+    font-weight: 500;
+    color: initial;
+  }
+}

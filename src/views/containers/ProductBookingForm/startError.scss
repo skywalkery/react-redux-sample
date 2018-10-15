@@ -1,0 +1,12 @@
+@import '../../../config/variables';
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.server-error {
+  color: $error-color;
+  padding: 15px 20px;
+  text-align: center;
+}

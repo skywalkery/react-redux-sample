@@ -1,0 +1,33 @@
+.container {
+  padding: 0 20px 15px;
+}
+
+.or-label {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  font-size: 16px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+.have-acc-label {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.price-wrapper {
+  margin-top: 7px;
+  margin-bottom: 10px;
+
+  div:first-child {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.paypal-btn-container {
+  margin-bottom: 15px;
+}
